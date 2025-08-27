@@ -1,0 +1,107 @@
+import { motion } from 'framer-motion';
+import { Card, CardContent } from '@/components/ui/card';
+import { useState, useEffect } from 'react';
+
+interface Testimonial {
+  quote: string;
+  name: string;
+  designation: string;
+  src: string;
+}
+
+interface AnimatedTestimonialsProps {
+  testimonials: Testimonial[];
+  autoplay?: boolean;
+}
+
+export const AnimatedTestimonials = ({ testimonials, autoplay = false }: AnimatedTestimonialsProps) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  useEffect(() => {
+    if (autoplay) {
+      const interval = setInterval(() => {
+        setActiveIndex((prev) => (prev + 1) % testimonials.length);
+      }, 5000);
+      return () => clearInterval(interval);
+    }
+  }, [autoplay, testimonials.length]);
+
+  return (
+    <section className="py-20 px-4">
+      <div className="container mx-auto max-w-6xl">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-center mb-16"
+        >
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
+            Why This Prompt Works
+          </h2>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
+            Designed to Maximise Quality, Speed, and Simplicity
+          </p>
+        </motion.div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {testimonials.map((testimonial, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              viewport={{ once: true }}
+            >
+              <Card className="h-full gradient-card hover:shadow-glow transition-all duration-300 group">
+                <CardContent className="p-6 md:p-8">
+                  <div className="aspect-video rounded-xl overflow-hidden mb-6">
+                    <img 
+                      src={testimonial.src}
+                      alt={testimonial.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <h3 className="text-xl md:text-2xl font-bold mb-3 text-studio-pink">
+                    {testimonial.name}
+                  </h3>
+                  <p className="text-sm text-studio-cyan mb-4">
+                    {testimonial.designation}
+                  </p>
+                  <p className="text-muted-foreground leading-relaxed">
+                    {testimonial.quote}
+                  </p>
+                </CardContent>
+              </Card>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export const AnimatedTestimonialsDemo = () => {
+  const testimonials = [
+    {
+      quote: "I spent hours fine-tuning this prompt to align with Lovable's visual model. It uses reliable components, avoids bloated features, and delivers layouts that just work, straight from generation.",
+      name: "Prompt Precision",
+      designation: "Built by Rod using Lovable",
+      src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/1.jpeg",
+    },
+    {
+      quote: "Yep — a full site for just 2 Lovable credits. You don't need to open the Visual Editor or burn tokens with guesswork. Just run the prompt, and the site is ready to tweak or publish.",
+      name: "Only 2 Credits",
+      designation: "Optimised for efficiency",
+      src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/2.jpeg",
+    },
+    {
+      quote: "These aren't toy sites. Each build is mobile-optimised, scroll-friendly, and designed to launch. You'll get a home page with sections, CTAs, and smooth UX — right out of the gate.",
+      name: "Production-Ready Output",
+      designation: "Tested on real Lovable builds",
+      src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/3.jpeg",
+    },
+  ];
+
+  return <AnimatedTestimonials testimonials={testimonials} autoplay={true} />;
+};
