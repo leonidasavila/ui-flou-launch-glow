@@ -44,30 +44,30 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
         mediaType="video"
         mediaSrc={heroVideo}
         bgImageSrc={heroFallback}
-        title="Aprende a usar IA para evaluar riesgos ergonómicos"
+        title="Aprende a usar IA<br/>para evaluar riesgos ergonómicos"
         date="Evento Presencial (Rosario, Argentina) y Online - 15 Octubre 2025"
         textBlend={true}
       >
         {/* Content after scroll */}
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-5xl font-bold text-white">
-            Nueva IA para escalar y automatizar la gestión de riesgos.
+            Nueva IA para escalar y automatizar tu gestión de riesgos.
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Aprendé a usar tus videos para automatizar la planilla SRT 886/15 y crear una bitácora de conocimiento con UiFlou AI
+            Aprendé como relevar con video y automatizar la planilla SRT 886/15
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-studio-pink mb-2">1</div>
-              <div className="text-muted-foreground">Credits Per Site</div>
+              <div className="text-muted-foreground">Plataforma IA</div>
             </div>
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-studio-orange mb-2">100%</div>
-              <div className="text-muted-foreground">Mobile Ready</div>
+              <div className="text-muted-foreground">Online</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-studio-purple mb-2">Live</div>
-              <div className="text-muted-foreground">In Under 2 Minutes</div>
+              <div className="text-3xl md:text-4xl font-bold text-studio-purple mb-2">Evaluaciones</div>
+              <div className="text-muted-foreground">En minutos</div>
             </div>
           </div>
           <Button 
@@ -85,16 +85,13 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-bold text-white">
-                What is One Prompt Website?
+                Como escalar la prevención con IA?
               </h2>
               <h3 className="text-xl text-studio-pink font-semibold">
-                A detailed way to prompt
+                Un encuentro para empresas y profesionales de la prevención de riesgos
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                After testing dozens of variations, I came up with a great first prompt… 
-                a prompt that generates beautiful websites using Lovable with animations, 
-                layout logic, mobile responsiveness, and styled sections. The full build 
-                costs just 2 credits, with no edits required.
+                Te invitamos al workshop para que conozcas como ganar tiempo y ahorrar costos automatizando la evaluación de riesgos ergonómicos con datos 100% digitales, precisos y objetivos.
               </p>
             </div>
             
@@ -153,7 +150,7 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
             onClick={copyPrompt}
             className="bg-studio-pink hover:bg-studio-pink/90 text-white text-lg px-8 py-4 rounded-xl shadow-glow"
           >
-            Click to copy Prompt to this website
+            Inscribirme
           </Button>
         </div>
       </section>

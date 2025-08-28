@@ -37,10 +37,10 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }: Animate
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
-            Why This Prompt Works
+            Contenido
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Designed to Maximise Quality, Speed, and Simplicity
+            -
           </p>
         </motion.div>
 
@@ -84,21 +84,21 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }: Animate
 export const AnimatedTestimonialsDemo = () => {
   const testimonials = [
     {
-      quote: "I spent hours fine-tuning this prompt to align with Lovable's visual model. It uses reliable components, avoids bloated features, and delivers layouts that just work, straight from generation.",
-      name: "Prompt Precision",
-      designation: "Built by Rod using Lovable",
+      quote: "Cantidades, tiempos y riesgos",
+      name: "Evaluación de Riesgos",
+      designation: "Automatización 886/15",
       src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/1.jpeg",
     },
     {
-      quote: "Yep — a full site for just 2 Lovable credits. You don't need to open the Visual Editor or burn tokens with guesswork. Just run the prompt, and the site is ready to tweak or publish.",
-      name: "Only 2 Credits",
-      designation: "Optimised for efficiency",
+      quote: "Comparación de cambios con IA",
+      name: "Monitoreo de Producción",
+      designation: "Medición de Mejoras",
       src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/2.jpeg",
     },
     {
-      quote: "These aren't toy sites. Each build is mobile-optimised, scroll-friendly, and designed to launch. You'll get a home page with sections, CTAs, and smooth UX — right out of the gate.",
-      name: "Production-Ready Output",
-      designation: "Tested on real Lovable builds",
+      quote: "Comparación de cambios con IA",
+      name: "Medición de Mejoras",
+      designation: "Comparación de cambios con IA",
       src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/3.jpeg",
     },
   ];
