@@ -44,7 +44,7 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
         mediaType="video"
         mediaSrc={heroVideo}
         bgImageSrc={heroFallback}
-        title="One Prompt. Full Website. 2 Credits."
+        title="Aprende a usar IA para automatizar la evaluación de riesgos"
         date="Built with Lovable"
         scrollToExpand="Scroll to Explore"
         textBlend={true}
