@@ -44,30 +44,30 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
         mediaType="video"
         mediaSrc={heroVideo}
         bgImageSrc={heroFallback}
-        title="Aprende a usar IA<br/>para evaluar riesgos ergonómicos"
+        title="Workshop IA para automatizar planilla SRT 886/15"
         date="Evento Presencial (Rosario, Argentina) y Online - 15 Octubre 2025"
         textBlend={true}
       >
         {/* Content after scroll */}
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-5xl font-bold text-white">
-            Nueva IA para escalar y automatizar tu gestión de riesgos.
+            Nueva IA exclusiva para Argentina
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Aprendé como relevar con video y automatizar la planilla SRT 886/15
+            Aprende a relevar y evaluar riesgos con IA para automatizar la planilla SRT 886/15
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-studio-pink mb-2">1</div>
-              <div className="text-muted-foreground">Plataforma IA</div>
+              <div className="text-3xl md:text-4xl font-bold text-studio-pink mb-2">9</div>
+              <div className="text-muted-foreground">Factores de Riesgos</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-studio-orange mb-2">100%</div>
-              <div className="text-muted-foreground">Online</div>
+              <div className="text-3xl md:text-4xl font-bold text-studio-orange mb-2">10X</div>
+              <div className="text-muted-foreground">Más veloz</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-studio-purple mb-2">Evaluaciones</div>
-              <div className="text-muted-foreground">En minutos</div>
+              <div className="text-3xl md:text-4xl font-bold text-studio-purple mb-2">100%</div>
+              <div className="text-muted-foreground">Exclusivo Argentina</div>
             </div>
           </div>
           <Button 
@@ -88,10 +88,10 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
                 Como escalar la prevención con IA?
               </h2>
               <h3 className="text-xl text-studio-pink font-semibold">
-                Un encuentro para empresas y profesionales de la prevención de riesgos
+                Un encuentro para la comunidad de empresas y profesionales
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Te invitamos al workshop para que conozcas como ganar tiempo y ahorrar costos automatizando la evaluación de riesgos ergonómicos con datos 100% digitales, precisos y objetivos.
+                Te invitamos al workshop para que conozcas como ganar tiempo y ahorrar costos con IA en la evaluación de riesgos ergonómicos con datos digitales, precisos y objetivos.
               </p>
             </div>
             
@@ -119,11 +119,8 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
         <ContainerScroll
           titleComponent={
             <>
-              <h2 className="text-3xl md:text-4xl font-semibold text-white mb-4">
-                See the Prompt in Action
-              </h2>
               <span className="text-4xl md:text-6xl font-bold mt-1 leading-none bg-gradient-to-r from-studio-pink via-studio-purple to-studio-orange bg-clip-text text-transparent">
-                Watch how a 2‑credit Lovable build looks from start to finish
+                Conoce a los expositores
               </span>
             </>
           }
@@ -141,11 +138,8 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
       <section id="try-prompt" className="py-20 px-4">
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            I can build more
+            Un workshop solo para innovadores
           </h2>
-          <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Let me know what you think and I can keep building more one-prompt websites for you to use.
-          </p>
           <Button 
             onClick={copyPrompt}
             className="bg-studio-pink hover:bg-studio-pink/90 text-white text-lg px-8 py-4 rounded-xl shadow-glow"
