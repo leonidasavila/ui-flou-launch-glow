@@ -39,16 +39,16 @@ All colors MUST be HSL.
 
     /* Brand design tokens */
     --studio-dark: 15 15 15; /* #0F0F0F */
-    --studio-blue: 59 59 152; /* #3B3B98 */
+    --studio-blue: 199 99 50; /* #01b8fe */
     --studio-purple: 275 80 65; /* Purple intermediate */
     --studio-pink: 352 84 71; /* #FF6C7E */
     --studio-orange: 20 100 67; /* #FF7A59 */
-    --studio-cyan: 180 100 70;
+    --studio-cyan: 177 100 47; /* #00efe3 */
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--studio-dark)), hsl(var(--studio-blue)), hsl(var(--studio-purple)), hsl(var(--studio-orange)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--studio-dark)) 0%, hsl(var(--studio-blue)) 40%, hsl(var(--studio-purple)) 70%, hsl(var(--studio-orange)) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(var(--studio-dark) / 0.8), hsl(var(--studio-blue) / 0.6));
+    --gradient-primary: linear-gradient(135deg, hsl(var(--studio-cyan)), hsl(var(--studio-blue)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--studio-cyan)) 0%, hsl(var(--studio-blue)) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(var(--studio-cyan) / 0.8), hsl(var(--studio-blue) / 0.6));
     
     /* Shadows */
     --shadow-glow: 0 0 40px hsl(var(--studio-pink) / 0.3);
