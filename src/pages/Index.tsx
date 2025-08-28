@@ -44,23 +44,21 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
         mediaType="video"
         mediaSrc={heroVideo}
         bgImageSrc={heroFallback}
-        title="Aprende a usar IA para automatizar la evaluación de riesgos"
-        date="Built with Lovable"
-        scrollToExpand="Scroll to Explore"
+        title="Aprende a usar IA para evaluar riesgos ergonómicos"
+        date="Evento Presencial (Rosario, Argentina) y Online - 15 Octubre 2025"
         textBlend={true}
       >
         {/* Content after scroll */}
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-5xl font-bold text-white">
-            Generate a complete, mobile‑friendly landing page using a single Lovable prompt
+            Nueva IA para escalar y automatizar la gestión de riesgos.
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Use my custom Lovable prompt to generate a high-converting, mobile-ready website 
-            in under 2 minutes. No editor. No coding. Just one prompt, 2 credits, and you're live.
+            Aprendé a usar tus videos para automatizar la planilla SRT 886/15 y crear una bitácora de conocimiento con UiFlou AI
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-studio-pink mb-2">2</div>
+              <div className="text-3xl md:text-4xl font-bold text-studio-pink mb-2">1</div>
               <div className="text-muted-foreground">Credits Per Site</div>
             </div>
             <div className="text-center">

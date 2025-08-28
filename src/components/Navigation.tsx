@@ -12,7 +12,7 @@ export const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <h1 className="text-xl md:text-2xl font-bold text-white">
-            Workshop Automatización Planillas Anexo 1 Resolución SRT 886/15
+            Workshop UiFlou AI
           </h1>
         </div>
       </div>
