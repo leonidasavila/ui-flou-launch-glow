@@ -37,7 +37,7 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }: Animate
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white">
-            Contenido
+            ¿Que vas a aprender en el Worksop?
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
             -
@@ -84,21 +84,21 @@ export const AnimatedTestimonials = ({ testimonials, autoplay = false }: Animate
 export const AnimatedTestimonialsDemo = () => {
   const testimonials = [
     {
-      quote: "Cantidades, tiempos y riesgos",
-      name: "Evaluación de Riesgos",
-      designation: "Automatización 886/15",
+      quote: "Como monitorear la producción",
+      name: "Como monitorear la producción",
+      designation: "--",
       src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/1.jpeg",
     },
     {
-      quote: "Comparación de cambios con IA",
-      name: "Monitoreo de Producción",
-      designation: "Medición de Mejoras",
+      quote: "--",
+      name: "Como evaluar riesgos ergonómicos",
+      designation: "--",
       src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/2.jpeg",
     },
     {
-      quote: "Comparación de cambios con IA",
-      name: "Medición de Mejoras",
-      designation: "Comparación de cambios con IA",
+      quote: "--",
+      name: "Como comparar mejoras implementadas",
+      designation: "--",
       src: "https://43908838.fs1.hubspotusercontent-na1.net/hubfs/43908838/3.jpeg",
     },
   ];

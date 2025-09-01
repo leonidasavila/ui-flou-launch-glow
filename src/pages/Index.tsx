@@ -44,30 +44,30 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
         mediaType="video"
         mediaSrc={heroVideo}
         bgImageSrc={heroFallback}
-        title="Workshop IA para automatizar planilla SRT 886/15"
-        date="Evento Presencial (Rosario, Argentina) y Online - 15 Octubre 2025"
+        title="Aprende a usar IA para monitorear Productividad y automatizar Planillas 886/15"
+        date="Workshop Presencial y Online CUPOS LIMITADOS"
         textBlend={true}
       >
         {/* Content after scroll */}
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <h2 className="text-3xl md:text-5xl font-bold text-white">
-            Nueva IA exclusiva para Argentina
+            Escala tus mejoras y reduce costos
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-            Aprende a relevar y evaluar riesgos con IA para automatizar la planilla SRT 886/15
+            Automatiza el análisis de videos con IA  
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-studio-pink mb-2">9</div>
-              <div className="text-muted-foreground">Factores de Riesgos</div>
+              <div className="text-3xl md:text-4xl font-bold text-studio-pink mb-2">Producción</div>
+              <div className="text-muted-foreground">Monitorea los procesos online</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-studio-orange mb-2">10X</div>
-              <div className="text-muted-foreground">Más veloz</div>
+              <div className="text-3xl md:text-4xl font-bold text-studio-orange mb-2">Riesgos</div>
+              <div className="text-muted-foreground">Automatiza planillas 886/15 </div>
             </div>
             <div className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-studio-purple mb-2">100%</div>
-              <div className="text-muted-foreground">Exclusivo Argentina</div>
+              <div className="text-3xl md:text-4xl font-bold text-studio-purple mb-2">Optimización</div>
+              <div className="text-muted-foreground">Analiza desvíos en los procesos</div>
             </div>
           </div>
           <Button 
@@ -85,20 +85,20 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-4xl md:text-5xl font-bold text-white">
-                Como escalar la prevención con IA?
+                Workshop de capacitación
               </h2>
               <h3 className="text-xl text-studio-pink font-semibold">
-                Un encuentro para la comunidad de empresas y profesionales
+                Un encuentro exclusivo para profesionales de Producción e Higiene y Seguridad
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Te invitamos al workshop para que conozcas como ganar tiempo y ahorrar costos con IA en la evaluación de riesgos ergonómicos con datos digitales, precisos y objetivos.
+                Actualiza tus habilidades y no te quedes afuera. Usa la IA para optimizar procesos y reducir riesgos 10X más rapido.
               </p>
             </div>
             
             <div className="gradient-card p-4 rounded-2xl">
               <div className="aspect-video rounded-xl overflow-hidden">
                 <iframe
-                  src="https://www.youtube.com/embed/xhW9up0Gi2E"
+                  src="https://www.youtube.com/embed/sAV5tAgE1Yw"
                   title="One Prompt Website Demo"
                   className="w-full h-full"
                   frameBorder="0"
@@ -120,7 +120,7 @@ UI Feel: Minimal, modern, AI-themed with a soft glow feel on CTAs
           titleComponent={
             <>
               <span className="text-4xl md:text-6xl font-bold mt-1 leading-none bg-gradient-to-r from-studio-pink via-studio-purple to-studio-orange bg-clip-text text-transparent">
-                Conoce a los expositores
+                Cupos limitados. Inscríbite y reserva tu lugar.
               </span>
             </>
           }
